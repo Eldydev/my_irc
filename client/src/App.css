@@ -1,0 +1,178 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: beige !important;
+}
+
+html, body { 
+  margin:0; 
+  padding:0; 
+  height:100%; 
+}
+
+#cont {
+  margin-top: 20px;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.navheader{      
+  margin-top: 10px;      
+  color :black !important;      
+  background-color: #b3beca!important      
+}    
+
+.PageHeading      
+{      
+  margin-top: 10px;      
+  margin-bottom: 10px;      
+  color :black !important;      
+}
+
+.snap {
+  align-items: center;
+  max-width: 100%;
+  height: auto;
+}
+a {
+  display: inline-block;
+  background-color: #1984c3;
+  color: #fff;
+  font-size: 1.5em;
+  font-family: Courier, sans-serif;
+  padding: 1em 5em;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 0.5em;
+  border-bottom: 0.25em solid #0f5177;
+  -moz-transition: 0.1s;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  box-shadow: 0 2px 3px #ccc;
+  position: relative;
+}
+
+a:hover {
+  background-color: #1e9feb;
+  border-bottom-width: 0;
+  margin-top: 0.2em;
+}
+
+#cont{
+  display: flex;
+  height: 90%;
+}
+
+#textbox {  
+  padding: 3px; 
+  position: fixed; 
+  bottom: 10%; 
+  width: 50%; 
+
+
+}
+
+#textbox input { 
+  border: 0; 
+  padding: 10px; 
+  width: 80%; 
+  margin-right: 5%;
+  border-radius: 50px;
+  border: black solid 2px;
+
+}
+
+#textbox button { 
+  width: 300px; 
+  background: rgb(130, 224, 255); 
+  border: none; 
+  padding: 10px;
+  border-radius: 50px;
+
+}
+
+#chanbox{
+  width: 25%;
+  border: black solid 2px;
+  border-radius: 50px;
+  background: cadetblue;
+}
+#chatbox{
+  width: 75%;
+
+}
+
+#chat{
+  height: 50vh;
+  overflow: auto;
+  border-radius: 50px;
+  background: cadetblue;
+  padding-left: 20px;
+  padding-top: 20px;
+  border: black solid 2px;
+}
+#text {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+
+  
+}
+#send {
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+#msg {
+
+  display: flex;
+  justify-content: space-between;
+}
+
+#room {
+  border: solid black 2px;
+  background: green;
+  border-radius: 50px;
+  text-align: center;
+  padding: 3px;
+  font-weight: bold;
+}
+
+#buttonschan button { 
+  width: 100px;
+  margin: auto; 
+  background: rgb(130, 224, 255); 
+  border: none; 
+  padding: 10px;
+  border-radius: 50px;
+
+}
+
+#buttonschan {
+  display: flex;
+  margin: 10px;
+}
+#chanlist {
+  margin: 10px; 
+}
